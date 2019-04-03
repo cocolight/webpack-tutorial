@@ -60,12 +60,12 @@ webpack 是一个现代 JavaScript 应用程序的静态模块打包器(module b
 
 - webpack 官网
   - [webpack 1.x](http://webpack.github.io/)
-  - [webpack 2](https://webpack.js.org/)
+  - [webpack 2 之后](https://webpack.js.org/)
+  - 最新版本是 4.x
 - [官方教程](https://webpack.js.org/guides)
 - [Github 仓库](https://github.com/webpack/webpack)
 - [常用 Loaders 列表](https://webpack.js.org/loaders)
 - [常用 Plugins 列表](https://webpack.js.org/plugins)
-
 
 ---
 
