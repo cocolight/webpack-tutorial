@@ -1,4 +1,4 @@
-# 第10章 webpack 性能优化
+# 第7章 webpack 性能优化
 
 - 开发配置文件：`webpack.dev.conf.js`
 - 发布配置文件：`webpack.prod.conf.js`

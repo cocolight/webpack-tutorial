@@ -1,4 +1,4 @@
-# 第2章 基础配置
+# 第2章 基础
 
 ## 准备
 
@@ -295,9 +295,9 @@ npm install --save-dev html-webpack-plugin
 
 > 参考：
 >
-> - https://github.com/jantimon/html-webpack-plugin#minification
+> - <https://github.com/jantimon/html-webpack-plugin#minification>
 >
-> - https://github.com/kangax/html-minifier
+> - <https://github.com/kangax/html-minifier>
 
 例如配置压缩HTML文件
 
@@ -526,7 +526,11 @@ import '@babel/polyfill'
   };
 ```
 
-
+> 扩展阅读：
+>
+> - [JavaScript Source Map 详解](http://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html)
+> - [An Introduction to Source Maps](https://blog.teamtreehouse.com/introduction-source-maps)
+>   - [译文](https://juejin.im/post/5bd65e1ae51d457aa071feaa)
 
 ## 自动监视编译构建
 
@@ -545,6 +549,8 @@ import '@babel/polyfill'
 - 监视构建
 - 自动刷新浏览器
 
+### 配置远程代理
+
 ## 配置热更新
 
 > 参考：
@@ -556,4 +562,8 @@ import '@babel/polyfill'
 > 参考：
 >
 > - https://vue-loader.vuejs.org/zh/guide/#%E6%89%8B%E5%8A%A8%E8%AE%BE%E7%BD%AE
+
+## 配置 ESLint
+
+## 区分打包环境
 

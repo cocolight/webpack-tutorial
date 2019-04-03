@@ -1,1 +1,1 @@
-# 第9章 webpack 和 Angular
+# 第6章 webpack 和 Angular

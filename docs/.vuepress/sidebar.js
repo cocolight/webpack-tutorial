@@ -5,9 +5,6 @@
 module.exports = [
   '/introduction',
   '/getting-started',
-  '/build-js-assets',
-  '/build-other-assets',
-  '/config-development',
   '/advanced-concept',
   '/webpack-vue',
   '/webpack-react',
