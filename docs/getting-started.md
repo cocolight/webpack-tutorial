@@ -1,4 +1,4 @@
-# 第2章 基础
+# 第2章 基础入门
 
 ## 准备
 
@@ -551,11 +551,41 @@ import '@babel/polyfill'
 
 ### 配置远程代理
 
+> 参考：
+>
+> - 示例：<https://webpack.js.org/configuration/dev-server#devserverproxy>
+>
+> - 具体细节：<https://github.com/chimurai/http-proxy-middleware>
+
+跨域：
+
+- JSONP
+  - 只能 GET 请求
+  - 仅仅适用于展示（数据获取）类的网站
+  - 管理系统不可能使用 JSONP
+- CORS 后端跨域
+  - 服务端在响应头中添加 Access-Control-Allow-Origin: 域名或者*任意
+  - 客户端什么都不需要做
+  - 如果后端使用到了基于 Cookie  的一些功能，那么在 CORS 下发送的请求需要单独设置 Cookie 跨域
+  - 例如在使用 Axios 的时候，可以配置 Cookie 跨域
+  - 文档：<https://github.com/axios/axios>
+  - withCredentials: true
+  - 扩展阅读：<http://www.ruanyifeng.com/blog/2016/04/cors.html>
+- 代理
+  - 自己配置
+  - 只要是服务器软件就可以配置代理解决跨域问题
+  - 例如我们使用 webpack-dev-server 就可以配置代理远程服务解决跨域
+  - 原理：服务端也能发请求，服务端请求是没有跨域限制的
+
+![1554342113665](./assets/1554342113665.png)
+
+
+
 ## 配置热更新
 
 > 参考：
 >
-> <https://webpack.js.org/guides/hot-module-replacement>
+> - <https://webpack.js.org/guides/hot-module-replacement>
 
 ## 打包 .vue 资源
 
@@ -565,5 +595,13 @@ import '@babel/polyfill'
 
 ## 配置 ESLint
 
+- 参考：
+- - 示例：<https://webpack.js.org/loaders/eslint-loader>
+  - 详细：<https://github.com/webpack-contrib/eslint-loader>
+
 ## 区分打包环境
+
+> 参考：
+>
+> - <https://webpack.js.org/guides/production>
 
